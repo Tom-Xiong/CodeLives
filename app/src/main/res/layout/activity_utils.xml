@@ -21,11 +21,11 @@
         android:layout_height="wrap_content"
         android:text="isNetWorking"
         android:id="@+id/two"
-        android:layout_alignParentRight="true"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"
         android:onClick="isNetWorking"
-        />
+        android:layout_alignTop="@+id/one"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp" />
 
     <Button
         android:layout_width="wrap_content"
