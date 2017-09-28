@@ -1,0 +1,19 @@
+
+/**
+ * Created by ransom on 2017/9/25 18:51.
+ */
+
+ 1.There are some keys are useful for me about coding in Android studio;
+
+ CTRL + N  --------- Fast to find your class file;快速找到类文件
+ CTRL + F12--------- Show the object about your class;显示该文件结构
+ CTRL + H  --------- Show the extend architecture;显示该类继承结构
+ ALT  + Ins -------- Quickly generate some methods;快速生成方法
+ CTRL + ALT + T----- Surround code with method;快速生成一些包含方法
+ CTRL + ALT + L----- make your code to be regular;快速检查并规范你的代码
+ CTRL + P  --------- Show what kind of parameter about your method；显示该方法的参数类型
+ CTRL + Q  --------- Show method detail;显示方法提示
+ CTRL + ALT + O----- Clear unnecessary imports;去掉多余的import
+ CTRL + ALT + V----- Generate variable;快速生成变量
+ CTRL + ALT + F----- Generate gloable variable;生成全局变量
+
