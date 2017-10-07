@@ -12,3 +12,8 @@
 ### 2.1 keyboard与EditText的交互
 #### 2.1.1 点击EditText 区域外，键盘消失，区域内显示
 #### 2.1.2 inputDialog,类似微信朋友圈评论输入,悬浮的输入框
+
+
+## 3 OpenGL ES Demo
+### 3.1 一個opengl框架的简单示例
+### 3.2  一個關於著色器和片段著色器的实例 代码源自http://blog.csdn.net/liyuanjinglyj/article/details/46608781

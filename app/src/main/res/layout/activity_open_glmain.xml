@@ -4,39 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="cn.ranfy.codelives.MainActivity">
+    tools:context="cn.ranfy.codelives.OpenGLDemo.OpenGLMainActivity">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:id="@+id/utils"
         android:layout_marginTop="20dp"
-        android:text="Utils"
-        android:onClick="utils"
+        android:text="trianglesample"
+        android:onClick="triangle"
+        android:id="@+id/triangle"
         />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
-        android:text="keyBoard"
-        android:id="@+id/keyboard"
-        android:onClick="keyBoard"
+        android:text="shader"
+        android:onClick="shader"
+        android:id="@+id/shader"
         />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_below="@id/utils"
-        android:text="opengl"
-        android:onClick="opengl"
-        android:id="@+id/opengl"
-        />
-
 </RelativeLayout>

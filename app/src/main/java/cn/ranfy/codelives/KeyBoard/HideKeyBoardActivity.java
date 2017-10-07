@@ -10,7 +10,7 @@ import android.widget.EditText;
 
 import cn.ranfy.codelives.R;
 
-public class HideKeyBoardActivity extends AppCompatActivity {
+public class  HideKeyBoardActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,5 +62,9 @@ public class HideKeyBoardActivity extends AppCompatActivity {
                     && event.getY() > top && event.getY() < bottom);
         }
         return false;
+    }
+
+    public void Do(){
+        System.out.println("Thread is doing sth");
     }
 }

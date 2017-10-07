@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import cn.ranfy.codelives.KeyBoard.KeyBoardActivity;
+import cn.ranfy.codelives.OpenGLDemo.OpenGLMainActivity;
 import cn.ranfy.codelives.UtilsGroup.UtilsActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -29,5 +30,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void keyBoard(View view) {
         startActivity(new Intent(this,KeyBoardActivity.class));
+    }
+
+    public void opengl(View view) {
+        startActivity(new Intent(this, OpenGLMainActivity.class));
     }
 }
